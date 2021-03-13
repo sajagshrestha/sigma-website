@@ -1,6 +1,6 @@
-import React from "react"
-import { ThemeProvider } from "styled-components"
-import { GlobalStyles, theme } from "./src/Themes"
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import { GlobalStyles, theme } from "./src/Themes";
 
 export const wrapRootElement = ({ element }) => {
   return (
@@ -8,5 +8,5 @@ export const wrapRootElement = ({ element }) => {
       <GlobalStyles />
       {element}
     </ThemeProvider>
-  )
-}
+  );
+};
