@@ -1,8 +1,12 @@
 import React from "react"
+import styled from "styled-components"
+const Header = styled.h1`
+  color: red;
+`
 const HomePage = () => {
   return (
     <div>
-      <h1>Hello Gatsby</h1>
+      <Header>Hello Gatsby</Header>
     </div>
   )
 }
