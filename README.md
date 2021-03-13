@@ -1,4 +1,4 @@
-#Install dependencies
+<h3>#Install dependencies</h3>
 npm install
-#Run dev server
+<h3>#Run dev server</h3>
 npm run develop
