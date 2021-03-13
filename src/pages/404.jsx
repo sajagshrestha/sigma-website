@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const custom404Page = () => {
   return (
@@ -6,7 +6,7 @@ const custom404Page = () => {
       <h1>404 error </h1>
       <p>Page not found</p>
     </div>
-  )
-}
+  );
+};
 
-export default custom404Page
+export default custom404Page;
