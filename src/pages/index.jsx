@@ -1,13 +1,13 @@
 import React from "react";
-import styled from "styled-components";
-const Header = styled.h1`
-  color: red;
-`;
+import AboutUs from "../Components/AboutUs";
+import Hero from "../Components/Hero";
+
 const HomePage = () => {
   return (
-    <div>
-      <Header>Hello Gatsby</Header>
-    </div>
+    <>
+      <Hero />
+      <AboutUs />
+    </>
   );
 };
 export default HomePage;
