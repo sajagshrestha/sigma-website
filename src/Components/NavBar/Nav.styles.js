@@ -66,6 +66,7 @@ export const NavLink = styled(Link)`
   ${media.desktop} {
     text-transform: capitalize;
     font-size: 1.1rem;
-    color: ${props => props.theme.textDark900};
+    font-weight: 600;
+    color: ${props => props.theme.textDark800};
   }
 `;
