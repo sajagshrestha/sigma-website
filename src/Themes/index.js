@@ -16,6 +16,7 @@ export const theme = {
   backgroundPrimary: "#fff",
   backgroundMenu: "#1A80B9",
   textDark900: "#000",
+  textDark800: "#444040",
   textLight900: "#fff",
   fontPoppins: `'Poppins', sans-serif;`,
   fontRaleway: `'Raleway', sans-serif;`,
