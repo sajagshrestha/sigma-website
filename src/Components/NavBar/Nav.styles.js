@@ -58,11 +58,13 @@ export const NavMenuDesktopContainer = styled.div`
 `;
 
 export const NavLink = styled(Link)`
+  font-family: ${props => props.theme.fontRaleway};
   text-transform: uppercase;
   color: ${props => props.theme.textLight900};
   font-size: 2.3rem;
   text-decoration: none;
   ${media.desktop} {
+    text-transform: capitalize;
     font-size: 1.1rem;
     color: ${props => props.theme.textDark900};
   }

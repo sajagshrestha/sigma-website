@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
 	padding:0;
 	box-sizing:border-box;
   scroll-behavior:smooth;
+  font-family:'Poppins', sans-serif
 }
 
 `;
@@ -16,6 +17,9 @@ export const theme = {
   backgroundMenu: "#1A80B9",
   textDark900: "#000",
   textLight900: "#fff",
+  fontPoppins: `'Poppins', sans-serif;`,
+  fontRaleway: `'Raleway', sans-serif;`,
+  fontRoboto: `'Roboto', sans-serif;`,
 };
 
 //for maintaing layout
