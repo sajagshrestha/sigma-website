@@ -1,17 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "gatsby";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
-import { Logo, NavContainer, NavWrapper, NavMenuMobile } from "./Nav.styles";
+import { Logo, NavContainer, NavWrapper } from "./Nav.styles";
 import Hamburger from "./Hamburger";
-// import { motion } from "framer-motion";
-const menuVariants = {
-  open: {
-    left: 0,
-  },
-  closed: {
-    left: "",
-  },
-};
+import NavMenuMobile from "./NavMenuMobile";
+import { NavMenuDesktop } from "./NavMenuDesktop";
+// import { motion } from "famer-motion";
+
 const Nav = () => {
   //to control menu
   const [isOpen, setIsOpen] = useState(false);
@@ -35,17 +29,8 @@ const Nav = () => {
           onClick={toggleMenu}
           color={isOpen ? "#fff" : "#444040"}
         />
-
-        <NavMenuMobile
-          initial={false}
-          variants={menuVariants}
-          animate={isOpen ? "open" : "closed"}
-          transition={{ duration: 0.2 }}
-        >
-          <Link to="/" onClick={toggleMenu}>
-            Home
-          </Link>
-        </NavMenuMobile>
+        <NavMenuMobile isOpen={isOpen} toggleMenu={toggleMenu} />
+        <NavMenuDesktop />
       </NavContainer>
     </NavWrapper>
   );

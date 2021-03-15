@@ -14,6 +14,8 @@ export const GlobalStyles = createGlobalStyle`
 export const theme = {
   backgroundPrimary: "#fff",
   backgroundMenu: "#1A80B9",
+  textDark900: "#000",
+  textLight900: "#fff",
 };
 
 //for maintaing layout

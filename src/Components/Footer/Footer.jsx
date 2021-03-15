@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../Themes";
+import { Container } from "../../Themes";
 import { FooterContainer } from "./Footer.styles";
 const Footer = () => {
   return (
