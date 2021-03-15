@@ -61,7 +61,7 @@ export const NavLink = styled(Link)`
   font-family: ${props => props.theme.fontRaleway};
   text-transform: uppercase;
   color: ${props => props.theme.textLight900};
-  font-size: 2.3rem;
+  font-size: 2rem;
   text-decoration: none;
   ${media.desktop} {
     text-transform: capitalize;
