@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../Themes";
+import { Container } from "../../Themes";
 import { HeroContainer } from "./Hero.styles";
 
 const Hero = () => {
