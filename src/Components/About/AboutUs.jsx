@@ -1,10 +1,10 @@
 import React from "react";
-import { Container } from "../Themes";
+import { Container } from "../../Themes";
 import { AboutUsContainer } from "./AboutUs.styles";
 
 const AboutUs = () => {
   return (
-    <AboutUsContainer>
+    <AboutUsContainer id="about">
       <Container>
         <h1>About Us</h1>
         <p>
